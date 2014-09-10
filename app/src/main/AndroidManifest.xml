@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.quiz" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="UAAP BASKETBALL QUIZ"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="UAAP BASKETBALL QUIZ" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Questions"
+            android:label="Question 1" >
+        </activity>
+        <activity
+            android:name=".Questions2"
+            android:label="Question 2" >
+        </activity>
+        <activity
+            android:name=".Question3"
+            android:label="Question 3" >
+        </activity>
+        <activity
+            android:name=".Over"
+            android:label="UAAP BASKETBALL QUIZ" >
+        </activity>
+        <activity
+            android:name=".End"
+            android:label="@string/title_activity_end" >
+        </activity>
+    </application>
+
+</manifest>
